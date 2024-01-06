@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 120px;
+    position: sticky;
+    top:0px;
+}
+header h1 {
+    color: aliceblue;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+header nav {
+    margin-right: 50px;
+}
+header nav a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+header nav a:hover {
+    color: rgb(14, 196, 252);
+    text-decoration: underline;
+}
+/*MAIN section one*/
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 50px 0;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+}
+.one h1,h2 {
+    margin:25px 0;
+}
+h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.one h2 {
+    font-size: 30px;
+}
+/*MAIN section two*/
+.two p {
+    width: 760px;
+    text-align: justify;
+    margin-left: 25px;
+    font-size: 25px;
+}
+.two img {
+    max-width: 550px;
+    height: auto;
+}
+/*MAIN section three*/
+.three div {
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    height: 300px;
+    width: 400px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.three div:hover {
+    background-color: rgb(14, 196, 252);
+    color: white;
+}
+.three div p {
+    width: 350px;
+    margin: 25px 0;
+    text-align: center;
+    font-size: large;
+
+}
+
+.four div{
+    margin-left: 25px;
+}
+.four div p {
+    font-weight: bold;
+    font-size: 25px;
+    display :flex;
+    justify-content: center;
+}
+.four div p span {
+    font-size: 15px;
+}
+.four div button {
+    margin-left: 250px;
+}
+footer {
+    background-color: black;
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
